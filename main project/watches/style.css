@@ -52,8 +52,8 @@ html, body  {
     text-transform: uppercase;
     font-family: futura-bold;
     border-radius: 50%;
-    /* opacity: 0; 
-    scale: 0;  */
+     opacity: 0; 
+    scale: 0;  
   
 }
 #page2 {
@@ -65,10 +65,35 @@ html, body  {
     padding: 3vw 1vw;
     justify-content: space-between;
 }
+
 #page2 .elem{
     height: 100%;
     width: 31%;
-    background-color: red;
+    object-fit: cover;
+    background-color:grey;
+   
 }
+
+#page2 .elem image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+
+}
+
+#page3{
+    height: 100vh;
+    width:100% ; 
+    background-color:aliceblue;
+}
+
+
+
+
+
+
+
+
 
 
